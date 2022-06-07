@@ -6,6 +6,15 @@
 
 }
 
+.scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}
+
 .scrolling-wrapper>.card {
     display: inline-block;
+}
+
+.pilihan-menu:active {
+    background-color: #366F31;
 }
